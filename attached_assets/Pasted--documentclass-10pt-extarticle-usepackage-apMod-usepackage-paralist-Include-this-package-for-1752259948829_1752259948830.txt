@@ -1,0 +1,468 @@
+\documentclass[10pt]{extarticle}
+\usepackage{apMod}
+\usepackage{paralist} % Include this package for compact itemize
+
+% Licensed: https://www.gnu.org/licenses/gpl-3.0.html
+% Template author: Anindya Prithvi
+% define all your stuff here
+\newcommand{\yourname}{Mohd Masood}%
+\newcommand{\youremail}{masood22299@iiitd.ac.in}%
+\newcommand{\youraddress}{Address: 26, Nizamuddin East, New Delhi, 110013}%
+\newcommand{\yourrollno}{2022299}%
+% \newcommand{\yourDOB}{27 January, 2005}%
+\newcommand{\yourgithub}{https://github.com/MasoodMohd26}%
+\newcommand{\yourlinkedin}{\href{https://www.linkedin.com/in/mohd-masood-b999762a4/}{https://www.linkedin.com/in/mohd-masood-b999762a4/}}%
+
+\newcommand{\yourphoto}{myphoto}% Only the filname without extension
+
+\newcommand{\yourlieinapril}{Shigatsu wa kimi no uso}%lol
+
+\newcommand{\contain}{0}%1 if you make each section of your resume inseperable (try and see) This was added to deal with newpage within section
+
+
+
+
+\begin{document}
+\cvheader%
+%
+\begin{contained}
+\sectionC{Education}
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    \cveducationitem{Indraprastha Institute of Information Technology, Delhi}{B.Tech (Computer Science and Engineering)}{2022 - 2026}{CGPA: 9.3/10 (till Semester 6)}
+    \cveducationitem{Birla Vidya Niketan, Delhi}{CBSE, Standard 12}{2021 - 2022}{Percentage: 97.6\%}
+    % \cveducationitem{Birla Vidya Niketan, Delhi}{CBSE, Standard 10}{2019 - 2020}{Percentage: 96.8\%}
+\end{longtable}%
+\vspace{0pt}
+\end{contained}
+
+%
+
+
+
+% \begin{contained}
+% \sectionC{Skills}
+% %nothing to modularize here, just write your stuff
+% \begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}p{0.05\textwidth}}
+%     \textbf{Expertise Area:}&
+%     Data Structures and Algorithm, Object Oriented Programming, Operating System, Database Management Systems (MySQL), Competitive Programming, Algorithm Design and Analysis, Machine Learning\\
+%     \textbf{Programming \newline Languages:}&
+%     Python, Java, C++, C, JavaFX, MySQL, HTML, CSS\\
+%     \textbf{Tools and\newline Technologies:}&
+%     Git/GitHub, MySQL Workbench, Matplotlib libraries, Numpy, Pandas, Scikit-learn, Pytorch, Tensorflow, Yolo, Google Colab, Support Vector Machine, VS Code, IntelliJ, CLion, Ubuntu (WSL), PyCharm, NS-3, Wireshark, TShark, Figma, Canva\\
+%     \textbf{Technical Electives:}&
+%     Software Development using Open Source Modules, Natural Language Processing, Data Structures and Algorithms, Advanced Programming, Operating Systems, Computer Networks, Machine Learning, Computer Organization, Algorithm Design and Analysis, Database Management System, Theory of Computation, Introduction To Programming, Linear Algebra, Probability and Statistics, Real Analysis, Discrete Structures, Differential Equations, Convex Optimization, Statistic Interference, Scientific Computing, Stochastic Process and Applications.
+% \end{longtable}%
+% \vspace{0pt}
+% \end{contained}
+
+\begin{contained}
+\sectionC{Skills}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}p{0.05\textwidth}}
+    \textbf{Expertise Area:} & Data Structures and Algorithms, Linux, TCP/IP networking protocols, Full Stack Development(MERN), Large Language Models, Agentic AI, Machine Learning, Deep Learning, Data Science, Database Management Systems (SQL)\\
+\textbf{Languages:} & C++, C, Python, Java, JavaScript, Shell Scripting \\
+\textbf{Tools and Technologies:} & Power BI, Ubuntu, Git/GitHub, Google Colab, JUnit, \LaTeX, IntelliJ, PyCharm, MySQL Workbench, HLS, Vitis \\
+\textbf{Core Elective:} & Operating Systems, Object Oriented Programming, Computer Networks, Natural Language Processing,  Probability and Statistics\\
+\end{longtable}%
+\vspace{0pt}
+\end{contained}
+
+
+
+\definecolor{darkpink}{RGB}{204, 0, 102}
+
+\begin{contained}
+\sectionC{Work Experience}
+\begingroup
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{p{0.8\textwidth}p{0.2\textwidth}}
+    \textbf{Python and LLM Engineer Intern @ Tata Research Development and Design Centre (TRDDC) | Pune, India} 
+    \href{https://drive.google.com/file/d/17YG2X92cxILUslgyK5wWw4gjJjs-1YgT/view?usp=sharing}
+{\textcolor{darkpink}{\underline{Offer Letter}}}
+\newline
+\begin{compactitem} 
+    \item \textbf{Crafted} \textit{Catgeni}, an AI-driven tool for constraint-based API testing interpreting natural-language business rules and Swagger specifications. 
+    \item \textbf{Harnessed} LangChain-powered LLMs with \textbf{ChromaDB} to generate and validate diverse, constraint-compliant test data, improving automation coverage by \textbf{40\%}. 
+    \item \textbf{Engineered} a Python-based \textbf{MC/DC coverage algorithm}, achieving \textbf{95\%+ rule coverage} and uncovering \textbf{20\%+ more edge-case bugs}.
+    \item \textbf{Established} an automated test regeneration pipeline, enhancing test completeness by \textbf{30\%+} through iterative LLM querying and validation. 
+\end{compactitem} 
+& (May, 25 -- Jul, 25) \newline \\
+
+
+    \textbf{Software Engineer Intern @ ScrapUncle — Delhi, India (Hybrid)} 
+\newline\textbf{Tech Stack:} React Native, Supabase, Node.js, Google Maps API, Sentry
+\newline
+\begin{compactitem} 
+    \item \textbf{Developed} and deployed a cross-platform Rider Tracking App with real-time GPS and route optimization for 100+ agents, saving \textbf{45+ minutes/order}. 
+    \item \textbf{Configured} a Supabase-backed backend with JWT authentication, role-based access, and real-time sync, ensuring security and reliability. 
+    \item \textbf{Integrated} Google Maps API for live updates and automated task allocation, reducing dispatcher intervention. 
+    \item \textbf{Instrumented} Sentry for analytics and error monitoring, cutting crashes by \textbf{30\%}  
+    \item \textbf{Collaborated} in a 4-member Agile team, owning frontend, backend, CI/CD, and deployment to build an app and a dashboard i.e. currently live in production . 
+\end{compactitem} 
+& (Jan, 25 – May, 25) \newline \\ 
+
+% \textbf{Python and LLM Engineer Intern @ Tata Research Development and Design Centre (TRDDC) — Pune, India} 
+% \newline
+% \begin{compactitem} 
+%     \item \textbf{Built} \textit{Catgeni}, an AI-driven tool for constraint-based API testing by interpreting natural-language business rules and Swagger specs. 
+%     \item \textbf{Harnessed} LangChain-powered LLMs with \textbf{ChromaDB} to generate and validate constraint-compliant test data, improving coverage by \textbf{40\%}. 
+%     \item \textbf{Engineered} a Python-based \textbf{MC/DC coverage algorithm}, achieving \textbf{95\%+} rule coverage and uncovering \textbf{20\%+} more edge-case bugs.
+%     \item \textbf{Designed} an automated test regeneration pipeline, enhancing completeness by \textbf{30\%+} via iterative LLM querying and validation. 
+% \end{compactitem} 
+% & (May, 25 – Jul, 25) \newline \\
+
+    
+    % \textbf{Undergraduate Researcher | MoSPI Project @ IIIT Delhi}  
+    % \newline\textit{Advisor: Prof. Vikram Goyal | Ministry of Statistics and Programme Implementation}  
+    % \newline
+    % \begin{compactitem}
+    %     \item \textbf{Developing} a Hierarchical Label Recommendation System for MoSPI to \textbf{automatically classify industrial survey data} from textual descriptions.  
+    % \item Leveraging \textbf{LLMs} and advanced \textbf{NLP pipelines} for \textbf{predicting} multi-level labels with high precision.  
+    % \item \textbf{Optimizing} for real-time, scalable deployment to \textbf{enhance} survey efficiency and accuracy.  
+ 
+    % \end{compactitem}
+    % & (Jan, 25 - Present) \\
+    
+
+
+    
+    
+ 
+
+
+\end{longtable}
+\endgroup
+\end{contained}
+
+% \begin{contained}
+% \sectionC{Work Experience}
+% \begingroup
+% \renewcommand{\arraystretch}{1.2}
+% \begin{longtable}{p{0.8\textwidth}p{0.2\textwidth}}
+%     \textbf{Research Investigation: Impact of JL Lemma Variations | Delhi, India}
+%     \newline\textit{Advisor: Dr. Pravesh Biyani}
+%     \newline\textbf{Technology Stack:} Support Vector Machine, Jupyter Notebook, Matplotlib
+%     \newline
+%     \begin{compactitem}
+%         \item Conducted an in-depth investigation of the Johnson-Lindenstrauss lemma, using Matplotlib to visualize how varying the number of dimensions affects data representation and integrity.
+%         \item Utilized Support Vector Machine (SVM) techniques to classify data, evaluating the stability of these classifications under different transformation parameters.
+%     \end{compactitem}
+%     & (Dec, 23 - Jan, 24) \newline
+%     \href{https://github.com/Akshat22052/JL-Lemma-research}{\textcolor{darkpink}{\underline{Github}}} \\
+% \end{longtable}
+% \endgroup
+% \end{contained}
+
+%\usepackage{xcolor}
+
+
+\vspace{0pt}
+
+
+% \clearpage % Force a new page before starting the Projects 
+% \begin{contained}
+% \sectionC{Projects}
+
+% \begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}}
+
+% \textbf{E-Commerce Website} \href{https://github.com/Akshat22052/E-commerce-Website}{\textcolor{darkpink}{\underline{Github}}} \newline
+%     \textit{Advisor: Dr. Mukesh Mohania}\newline
+%     \textbf{Technology Stack:} HTML, CSS, Node.js, MySQL
+%     \begin{itemize}
+%         \setlength\itemsep{0pt}
+%         \setlength\parskip{0pt}
+%         \setlength\parsep{0pt}
+%         \setlength\topsep{0pt}
+%         \setlength\parindent{0pt}
+%         \item Built a responsive e-commerce platform for Myntra clothing, focusing on user-friendly interface and design. Implemented key features such as user registration, login, shopping cart management, and order history tracking.
+%         \item Managed conflicts and conflicting transactions to ensure data integrity and user satisfaction. Implemented robust error-handling mechanisms and transaction rollback strategies to maintain reliability and trustworthiness of the platform.
+%     \end{itemize}
+%     & Team Size-4
+%     \newline (Feb, 24 - May, 24)\\[10pt]
+    
+% \textbf{Stick Hero Game}  \href{https://github.com/Akshat22052/Stick-Hero}{\textcolor{darkpink}{\underline{Github}}} \newline
+%     \textit{Advisor: Dr. Raghava Mutharaju}\newline
+%     \textbf{Technology Stack:} Java, JavaFX, FXML, Multithreading, Junit, OOPs, Design Patterns
+%     \begin{itemize}
+%         \setlength\itemsep{0pt}
+%         \setlength\parskip{0pt}
+%         \setlength\parsep{0pt}
+%         \setlength\topsep{0pt}
+%         \setlength\parindent{0pt}
+%         \item Developed an engaging Stick Hero game clone featuring a stickman character collecting cherries.
+%         \item Utilized JavaFX for building an intuitive GUI, applying robust object-oriented programming and design patterns. Integrated Junit for comprehensive unit testing and multithreading for enhanced performance.
+%     \end{itemize}
+%     & Team Size-2
+%     \newline (Oct, 23 - Nov, 23)\\[10pt]
+
+% \textbf{Mini Operating System}  \href{https://github.com/Akshat22052/Operating-System-Projects}{\textcolor{darkpink}{\underline{Github}}} \newline
+%     \textit{Advisor: Dr. Vivek Kumar}\newline
+%     \textbf{Technology Stack:} C, Shell, Linux
+%     \begin{itemize}
+%         \setlength\itemsep{0pt}
+%         \setlength\parskip{0pt}
+%         \setlength\parsep{0pt}
+%         \setlength\topsep{0pt}
+%         \setlength\parindent{0pt}
+%         \item Developed three key components: Simple Scheduler, Simple Shell, and Smart Loader to simulate an operating system.
+%         \item Implemented a priority-based Simple Scheduler in C for efficient CPU time allocation. Created Simple Shell with Unix-like command-line capabilities, facilitating process management and pipeline execution. Designed Smart Loader to optimize the loading of 32-bit ELF executables, incorporating lazy loading techniques for efficiency.
+%     \end{itemize}
+%     & Team Size-2
+%     \newline (Aug, 23 - Nov, 23)\\[10pt]
+
+% \end{longtable}
+% \end{contained}
+
+
+% ----------------------------------------------------------------------
+% Projects section with ML project addition
+% \begin{contained}
+% \sectionC{Projects}
+
+% \begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}}
+
+
+
+% \textbf{Portfolio Optimization Model for Indian Market} \href{https://github.com/Akshat22052/Stock-Market-Portfolio-Optimization}{\textcolor{darkpink}{\underline{Github}}} \newline
+%     \textit{Advisor: Dr. Jainendra Shukla}\newline
+%     \textbf{Technology Stack:} Python, Machine Learning, ANN, Random Forest
+%     \begin{itemize}
+%         \setlength\itemsep{0pt}
+%         \item Developed a predictive model to estimate stock price volatility over 90 and 180 trading days, aiding portfolio diversification across Indian stock market sectors.
+%         \item Implemented Modern Portfolio Theory (MPT) using optimization techniques to create an optimized portfolio, balancing risk and return effectively.
+%     \end{itemize}
+%     & Team Size-4
+%     \newline (Aug, 24 - Nov, 24)\\[10pt]
+
+% % \textbf{Exploring Networking with Linux iptables and ns-3} \newline
+% % \textit{Advisor: Dr. Rinku Shah}\newline
+% % \textbf{Technology Stack:} Linux, iptables, ns-3, Wireshark, tcpdump, pthread, C \newline
+% % \begin{itemize}
+% %     \item Configured firewall rules, NAT, and traffic filtering using iptables in a multi-VM setup with load balancing.
+% %     \item Simulated TCP congestion control and analyzed network performance using ns-3 under varied conditions.
+% %     \item Built a multi-threaded server-client model in C for process monitoring and dynamic CPU pinning.
+% %     \item Analyzed network traffic and performance using Wireshark, tcpdump, and perf tools.
+% % \end{itemize}
+% %     & Team Size-1 \newline (Aug, 24 - Nov, 2)\\[10pt]
+
+
+
+% \textbf{Stick Hero Game}  \href{https://github.com/Akshat22052/Stick-Hero}{\textcolor{darkpink}{\underline{Github}}} \newline
+%     \textit{Advisor: Dr. Raghava Mutharaju}\newline
+%     \textbf{Technology Stack:} Java, JavaFX, FXML, Multithreading, Junit, OOPs, Design Patterns
+%     \begin{itemize}
+%         \setlength\itemsep{0pt}
+%         \item Developed an engaging Stick Hero game clone featuring a stickman character collecting cherries.
+%         \item Utilized JavaFX for building an intuitive GUI, applying robust object-oriented programming and design patterns. Integrated Junit for comprehensive unit testing and multithreading for enhanced performance.
+%     \end{itemize}
+%     & Team Size-2 \newline (Oct, 23 - Nov, 23)\\[10pt]
+
+
+
+
+% \textbf{E-Commerce Website} \href{https://github.com/Akshat22052/E-commerce-Website}{\textcolor{darkpink}{\underline{Github}}} \newline
+%     \textit{Advisor: Dr. Mukesh Mohania}\newline
+%     \textbf{Technology Stack:} HTML, CSS, Node.js, MySQL
+%     \begin{itemize}
+%         \setlength\itemsep{0pt}
+%         \item Built a responsive e-commerce platform for Myntra clothing, focusing on user-friendly interface and design. Implemented key features such as user registration, login, shopping cart management, and order history tracking.
+%         \item Managed conflicts and conflicting transactions to ensure data integrity and user satisfaction. Implemented robust error-handling mechanisms and transaction rollback strategies to maintain reliability and trustworthiness of the platform.
+%     \end{itemize}
+%     & Team Size-4
+%     \newline (Feb, 24 - May, 24)\\[10pt]
+
+
+
+% \end{longtable}
+% \end{contained}
+
+\vspace{-10pt}
+\sectionC{Projects}
+
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}}
+
+\textbf{Scanerr – Portable Document Scanner App}
+\href{https://github.com/MasoodMohd26/Scanerr-Android-App}
+{\textcolor{darkpink}{\underline{Github}}} 
+\newline
+\textbf{Technology Stack:} Android, Kotlin, Jetpack Compose, Google ML Kit, Java File I/O
+\begin{itemize}
+    \setlength\itemsep{0pt}
+    \item \textbf{Developed} an Android app for scanning documents with OCR achieving \textbf{90\%+ text accuracy}, processing $\sim$50 pages/min using Google ML Kit for real-time performance.
+\item \textbf{Implemented} PDF and JPEG export, integrated MediaStore and cloud APIs for seamless \textbf{offline and online access}, supporting 10K+ documents with \textbf{99.9\% reliability}.
+\item \textbf{Created} an optimized, adaptive UI in Jetpack Compose with lazy-loading previews, \textbf{100\% screen reader compliance}, and responsiveness for varied display sizes.
+\item \textbf{Configured} TalkBack and voice reader (TextToSpeech), enhancing \textbf{accessibility} to cater to a broader audience, including users with disabilities.
+ 
+\end{itemize}
+& Team Size-3 \newline (Jan, 25 - Apr, 25) \\[10pt]
+
+
+\textbf{Mini Operating System}  \href{https://github.com/MasoodMohd26/OS_Components/tree/main}{\textcolor{darkpink}{\underline{Github}}} \newline
+\textit{Advisor: Dr. Vivek Kumar}\newline
+\textbf{Technology Stack:} C, Shell Scripting, Linux
+\begin{itemize}
+    \setlength\itemsep{0pt}
+    \item Constructed a \textbf{priority-based scheduler} in C, improving CPU time allocation efficiency by \textbf{30\%} over round-robin for 100+ concurrent processes.
+    \item Built a \textbf{Unix-like shell} with pipeline support (e.g., \texttt{grep | sort}), process control (\texttt{fork/wait}), and \textbf{10+ native commands}, achieving \textbf{95\%} accuracy.
+    \item Programmed a \textbf{Smart Loader} for 32-bit ELF executables using lazy loading, reducing memory footprint by \textbf{25\%} and startup latency by \textbf{15\%}.
+\end{itemize}
+& Team Size-2  
+\newline (Aug 2024 - Nov 2024)\\[10pt]
+% \textbf{Smart Analyzer for Readmissions of Diabetic Patients} \href{https://github.com/MasoodMohd26/Diabetes_Readmission_Data_Analysis}{\textcolor{darkpink}{\underline{Github}}} \newline
+% \textbf{Technology Stack:} Python, Scikit, Numpy, Pandas, Machine Learning, Data Science
+% \begin{itemize}
+%     \setlength\itemsep{0pt}
+%     \item Conducted \textbf{EDA} and \textbf{hypothesis testing} on a dataset of \textbf{101,766 records} with \textbf{47 features}, identifying \textbf{10 key predictors} of diabetic readmissions.
+%     \item Applied dimensionality reduction techniques like \textbf{SVD} and \textbf{CUR} to reduce computation time while preserving data integrity.
+%     \item Developed and optimized \textbf{machine learning models} (\textbf{Logistic Regression}, \textbf{Random Forest}), achieving \textbf{64\% accuracy} and providing actionable insights to \textbf{reduce hospital readmissions} and \textbf{improve patient care}.
+% \end{itemize}
+% & Team Size-1 \newline (Aug, 24 - Nov, 24)\\[10pt]
+
+
+
+% Blink Basket
+% \textbf{BlinkBasket} \href{https://github.com/MasoodMohd26/BlinkBasket}{\textcolor{darkpink}{\underline{Github}}} \newline
+% \textbf{Technology Stack:} MySQL, HTML, CSS, JavaScript, Node.js, Machine Learning
+% \begin{itemize}
+%     \setlength\itemsep{0pt}
+%     \item Developed a user-friendly online platform offering a wide range of everyday products.
+%     \item Implemented features like \textbf{personalized recommendations} and \textbf{auto order subscription mechanism}.
+%     \item Designed the \textbf{MySQL relational database} using \textbf{ER modeling} and managed the backend using \textbf{Node.js}.
+% \end{itemize}
+% & Team Size-4 \newline (Feb, 24 - May, 24)\\[10pt]
+
+% NLP Menal Health-------------------------
+% \textbf{Mental Health Counseling Summarization} \href{https://drive.google.com/drive/folders/113-k57GONrV8B_xO_EU3NTW02fOqA_F2?usp=sharing}{\textcolor{darkpink}{\underline{Github}}} 
+% \newline
+% \textbf{Technology Stack:} Clinical NLP, BioBERT, BART, Python
+% \begin{itemize}
+%     \setlength\itemsep{0pt}
+%     \item Engineered an AI-driven system to help psychotherapists review sessions by generating clinically-relevant summaries and filtering filler dialogue. 
+%     \item Trained an ECC classifier to classify each dialogue into 4 therapy categories (SH, PD, DF, RT) using \textbf{BioClinicalBERT + GRU} (\textbf{BERTScore-F1: 0.865}). 
+%     \item Fine-tuned \textbf{BART summarizer}, leveraging \textbf{hallucination control and ECC labels} to produce concise summaries focusing on symptoms related conversations. 
+%     \item Outperformed \textbf{DeepSeek-8b} on \textbf{BLEU} (0.08 vs 0.02) and \textbf{ROUGE-L} (0.21 vs 0.18). 
+% \end{itemize}
+% & Team Size-2 \newline (Mar, 25 - Apr, 25) \\[10pt]
+
+
+
+% \textbf{Portfolio Optimiser for Stock Market} \href{https://github.com/MasoodMohd26/Portfolio-Optimiser-For-Stock-Market}{\textcolor{darkpink}{\underline{Github}}} \newline
+% \textbf{Technology Stack:} Python, Machine Learning, Modern Portfolio Theory
+% \begin{itemize}
+%     \setlength\itemsep{0pt}
+%     \item Cleaned and normalized \textbf{20 years of OHLCV data} across \textbf{50+ stocks}, engineering \textbf{20+ volatility indicators} including rolling std dev, RSI, and MACD.
+%     \item Trained \textbf{RF, XGBoost, and ANN models} achieving up to \textbf{ROC AUC of 0.91} and \textbf{50\% directional accuracy} on real-world stock data.
+%     \item Backtested and optimized portfolios using \textbf{Markowitz MPT}, achieving \textbf{12\% annualized return}, \textbf{Sharpe ratio of 1.2}, and \textbf{15\% risk reduction} through sector allocation.
+% \end{itemize}
+% & Team Size-4 \newline (Aug, 24 - Nov, 24)\\[10pt]
+
+
+
+
+
+\textbf{Stick Hero Game}  \href{https://github.com/MasoodMohd26/STICK_HERO_GAME/tree/main}{\textcolor{darkpink}{\underline{Github}}} \newline
+\textit{Advisor: Dr. Raghava Mutharaju}\newline
+\textbf{Technology Stack:} Java, JavaFX, Multithreading, JUnit, OOP Principles, Design Patterns  
+\begin{itemize}
+    \setlength\itemsep{0pt}
+    \item Architected a 2D Stick Hero clone using \textbf{core OOP concepts} (encapsulation, inheritance, polymorphism) to create modular game components, enabling \textbf{30\% faster feature development}.
+    \item Integrated \textbf{3 design patterns} (Singleton, Factory, Observer) following OOP best practices, reducing code redundancy by \textbf{40\%}.
+    \item Spearheaded collision detection and physics systems with \textbf{Java inheritance hierarchies}, achieving smooth gameplay at \textbf{60 FPS} across 10+ levels.
+\end{itemize}
+& Team Size-2  
+\newline (Oct 2023 - Nov 2023)\\[10pt]
+
+
+\end{longtable}
+
+
+
+\vspace{0pt}
+
+
+% \sectionC{Positions of Responsibility}
+% \begin{contained}
+% \vspace{5pt}
+% \begin{itemize}
+% \vspace{-8pt}
+%     \setlength\itemsep{0.5pt}
+%     \item Member of the Operations Team at Odyssey IIIT-D. \hfill (Oct, 23 - Jan, 24)
+%     \item Branch Representative in Inter-Branch Table Tennis Tournament 2023. \hfill (Nov, 23 - Dec, 23)
+% \end{itemize}
+% \vspace{5pt}
+% \end{contained}
+
+
+
+% \begin{contained}
+% \sectionC{Awards and Achievements}
+% \vspace{0pt}
+% \begin{itemize}
+% \vspace{-8pt}
+%     \setlength\itemsep{0.5pt}
+%     \item Competitive Programming: Solved over 500 questions related to DSA and CP on various coding platforms. (\href{https://leetcode.com/u/Akshat22052/}{Leetcode}, \href{https://codeforces.com/profile/Aksh4t-45}{Codeforces}, \href{https://www.geeksforgeeks.org/user/karnwalqxyr/}{GeeksforGeeks})
+%     \item JEE Advanced: Secured All India Rank 10727 in JEE Advanced and 98.80 percentile - All India Rank 10881 in JEE Mains.
+%     \item Merit Certificate for Academic Excellence: Honored to receive the CBSE Official Certificate for Academic Excellence in 12th grade, ranking in the top 0.1\% nationwide for Mathematics and Chemistry, scoring full marks in both subjects.
+% \end{itemize}
+% \vspace{0pt}
+% \end{contained}
+
+\vspace{-10pt}
+\begin{contained}
+\sectionC{Honors and Achievements}
+\vspace{0pt}
+
+\begin{list}{}{\setlength\leftmargin{5pt} \setlength\itemindent{0pt} \setlength\itemsep{0.5pt}}
+    \item \textbf{Dean's Student Academic Excellence Awardee (IIITD, 2024):} Awarded to the \textbf{top 10 students} of the institute for outstanding academic performance. [\href{https://drive.google.com/file/d/1ulJL7gCp3uWmniDnknJ6sOtHTd95PK5A/view?usp=sharing}{\underline{Certificate}}]
+    \item \textbf{Merit Certificate by CBSE (2024):} Achieved \textbf{top 0.1\%} nationwide in Mathematics Olympiad. [\href{https://drive.google.com/file/d/19TBacVqJOpi3csXHweIlUfwL7iAckIc8/view?usp=sharing}{\underline{Certificate}}]
+    \item \textbf{Leetcode 100-Day Challenge (2024):} Ranked within the \textbf{top 3\% of 1L+ participants} for consistent performance in solving daily challenges. [\href{https://drive.google.com/file/d/16wUM7dMiMt_F7OskVVr9RNe68c1Xy39q/view?usp=sharing}{\underline{Certificate}}]
+    % \item \textbf{Solvosphere Hackathon Winner (2023):} Secured 1st place in the Ideation Round at Solvosphere Hackathon, ESYA, the technical fest of IIITD.
+    \item \textbf{Competitive Programming:} Solved over \textbf{500+ questions} on various coding platforms: [\href{https://leetcode.com/u/smoothie26/}{Leetcode}], [\href{https://www.geeksforgeeks.org/user/mohdmasoo3cev/}{GeeksforGeeks}], [\href{https://drive.google.com/file/d/1bHzA22npDfDCf11TmipQLGzRnpEkA4I3/view?usp=sharing}{Hacker Blocks}].
+    \item \textbf{Featured in Navbharat Times (2012):} Recognized as the \textbf{youngest black belt in UP} for winning two gold medals in the 28th All India Karate Championship with the tagline \textbf{"Gold par hai bus isi ka hold."} [\href{https://drive.google.com/file/d/18lj-69HyLrYa9pMzl_Zq3vVThorBmnC2/view}{\underline{Newspaper Cutout}}]
+\end{list}
+
+\vspace{0pt}
+\end{contained}
+
+
+\vspace{6pt}
+\begin{contained}
+\sectionC{Positions and Responsibilities}
+\vspace{0pt}
+\begin{itemize}
+% \vspace{-8pt}
+    \setlength\itemsep{0.5pt}
+    \item \textbf{Head Teaching Assistant, Operating Systems (IIITD, 2024):} Led a team of TAs to deliver tutorials, design quizzes, and oversee academic support for \textbf{150+ students} under the guidance of Prof. Vivek Kumar.
+    \item \textbf{Event Lead – (TechFest, IIITD,  2023):} Organized event operations and led team of 10+ people.
+\end{itemize}
+\vspace{0pt}
+\end{contained}
+
+
+
+
+
+
+% \sectionC{Interests and Hobbies}
+% \begin{contained}
+% \vspace{5pt}
+% \begin{itemize}
+% \vspace{-8pt}
+%     \setlength\itemsep{0.5pt}
+%       \item I like to participate in competitive programming to sharpen my problem-solving and coding skills continuously.
+%     \item I like to study different algorithms.
+% \end{itemize}
+% \vspace{5pt}
+% \end{contained}
+
+
+% \begin{flushleft}
+%     Declaration: The above information is correct to the best of my knowledge.\newline\yourname \\
+%     Date: \today
+% \end{flushleft}
+
+\end{document}
+
+
+
+
+
